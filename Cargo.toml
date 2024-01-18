@@ -14,7 +14,7 @@ sdl2 = "0.34"
 av-data = "0.3.0"
 av-codec = "0.2.0"
 av-format = "0.3.0"
-libvpx = { version = "0.1.0", git = "https://github.com/rust-av/vpx-rs", features = ["codec-trait"] }
-libopus = { version = "0.1.0", git = "https://github.com/rust-av/opus-rs", features = ["codec-trait"] }
-matroska = { version = "0.1.0", git = "https://github.com/rust-av/matroska" }
-av-vorbis = { git = "https://github.com/rust-av/av-vorbis" }
+libvpx = { rev = "dafb1e8", git = "https://github.com/rust-av/vpx-rs", features = ["codec-trait"] }
+libopus = { rev = "609b95a", git = "https://github.com/rust-av/opus-rs", features = ["codec-trait"] }
+matroska = { rev = "5457fca", git = "https://github.com/rust-av/matroska" }
+av-vorbis = { rev = "8f5ec8c", git = "https://github.com/rust-av/av-vorbis" }
